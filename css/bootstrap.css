@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1626,6 +1627,8 @@ pre code {
 .table-hover .table-success:hover > th {
   background-color: #b1dfbb;
 }
+
+.landingpic
 
 .table-info,
 .table-info > th,
