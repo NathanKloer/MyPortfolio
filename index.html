@@ -112,7 +112,7 @@
   </nav>
   <!-- Navbar -->
 
-  <!--Carousel Wrapper-->
+  <!--Background Wrapper-->
   <div id="top">
     <div>
       <div class="view landingpic" style="background-image: url('./img/photographs/thumbsuplong.png'); background-size: cover;
@@ -137,15 +137,11 @@
         </div>
       </div>
 
-      <!--/First slide-->
-      <!--/.Carousel Wrapper-->
-
       <!--Main layout-->
       <main>
 
         <div class="container">
 
-          <!--Section: Main info-->
           <section class="mt-5 wow fadeIn">
 
             <!--Grid row-->
@@ -157,12 +153,9 @@
                 <img src="./img/photographs/atl.JPG" class="img-fluid z-depth-1-half" alt="">
 
               </div>
-              <!--Grid column-->
 
-              <!--Grid column-->
               <div id="aboutme" class="col-md-6 mb-4">
 
-                <!-- Main heading -->
                 <h3 class="h3 mb-3">About Me</h3>
                 <p>My name is Nathan Kloer, and I am a versitle full-stack web developer; with training in video editing, social
                   media marketing, technical support, & customer interaction. I have a passion for stories and storytelling,
@@ -170,34 +163,20 @@
                   were taken by me. Please explore my site.
                 </p>
 
-                <!-- CTA -->
                 <a target="_blank" href="https://nathankloer.github.io/MyPortfolio/resume.pdf" class="btn btn-indigo btn-md">Resume
                   <i class="fas fa-file-alt ml-1"></i>
                 </a>
 
               </div>
-              <!--Grid column-->
-
             </div>
-            <!--Grid row-->
-
           </section>
-          <!--Section: Main info-->
-
           <hr class="my-5">
-
-          <!--Section: Main features & Quick Start-->
           <section>
 
             <h3 class="h3 text-center mb-5">Featured Projects</h3>
-
-            <!--Grid row-->
             <div id="webprojects" class="row wow fadeIn">
-
-              <!--Grid column-->
               <div class="col-lg-4 col-md-4 px-4">
                 <div class="row">
-                  <!--First row-->
                   <div class="card">
                     <div class="view overlay">
                       <img class="card-img-top img-fluid" src="./img/photographs/woodscouch.png" style="width:100%; height: 13vw; object-fit:cover" alt="">
@@ -255,12 +234,9 @@
                     </div>
                   </div>
                 </div>
-                <!--/First row-->
-
               </div>
               <div class="col-lg-4 col-md-4 px-4">
                 <div class="row">
-                  <!--First row-->
                   <div class="card view overlay">
                     <div class="view overlay">
 
@@ -287,37 +263,28 @@
                   </div>
               </div>
             </div>
-            <!--/Grid row-->
 
           </section>
-          <!--Section: Main features & Quick Start-->
 
           <hr class="my-5">
 
-          <!--Section: Not enough-->
           <section>
             <div class="row">
             <div id="contactme" class="col-md-6 col-xl-5 mb-4">
-
-              <!--Card-->
               <div class="card">
-
-                <!--Card content-->
                 <div class="card-body">
-
-                  <!-- Form -->
-                  
-                  <form name="contactform">
-                    <!-- Heading -->
+                  <form name="contactform" class="needs-validation" novalidate>
                     <h3 class="dark-grey-text text-center">
                       <strong>Contact Me:</strong>
                     </h3>
                     <hr>
-
                     <div class="md-form">
                       <i class="fas fa-user prefix grey-text"></i>
-                      <input type="text" id="name" class="form-control">
                       <label for="name">Your name</label>
+                      <input type="text" id="name" class="form-control" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
                     </div>
                     <div class="md-form">
                       <i class="fas fa-envelope prefix grey-text"></i>
@@ -343,29 +310,22 @@
                     </div>
 
                   </form>
-                  <!-- Form -->
                 </div>
 
               </div>
-              <!--/.Card-->
               
             </div>
             <div class="col-md-6 col-xl-7 mb-4">
                 <img src="./img/photographs/selfie.JPG" class="img-fluid z-depth-1-half" style="margin-top:10%" alt="">
               </div>
-            <!--Grid column-->
             </div>
         </section>
         <!--Section: More-->
 
     </div>
     </main>
-    <!--Main layout-->
-    
-    <!--Footer-->
     <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
-      <!--Call to action-->
       <div class="pt-4">
         <a class="btn btn-outline-white" href="#top" role="button">Back to Top
           <i class="fas fa-arrow-circle-up ml-2"></i>
@@ -374,13 +334,8 @@
           <i class="fas fa-file-alt ml-2"></i>
         </a>
       </div>
-      <!--/.Call to action-->
-      <!-- Social icons -->
       <div class="pb-4">
       </div>
-      <!-- Social icons -->
-
-      <!--Copyright-->
       <div class="footer-copyright py-3">
         <a href="https://github.com/NathanKloer" target="_blank">
           <i class="fab fa-github mr-3"></i>
@@ -390,13 +345,8 @@
           <i class="fab fa-instagram mr-3"></i>
         </a>
         © 2019 Copyright: Nathan Kloer
-
       </div>
-      <!--/.Copyright-->
-
     </footer>
-    <!--/.Footer-->
-
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
