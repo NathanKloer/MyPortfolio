@@ -13,7 +13,7 @@ $('a[href^="#"]').on('click',function (e) {
 
 $("#fileRequest").click(function() {
     // // hope the server sets Content-Disposition: attachment!
-    window.location = 'resume.pdf';
+    window.location = 'Nathan_Kloer_Resume.pdf';
 });
 
 (function() {
