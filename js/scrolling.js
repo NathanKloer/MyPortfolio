@@ -10,3 +10,8 @@ $('a[href^="#"]').on('click',function (e) {
      window.location.hash = target;
     });
 });
+
+$("#fileRequest").click(function() {
+    // // hope the server sets Content-Disposition: attachment!
+    window.location = 'resume.pdf';
+});

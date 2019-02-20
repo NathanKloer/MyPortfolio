@@ -59,8 +59,8 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong>NBK</strong>
+      <a class="navbar-brand" href="#top">
+        <strong>NK</strong>
       </a>
 
       <!-- Collapse -->
@@ -75,7 +75,7 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#topmost">Home
+            <a class="nav-link" href="#top">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -83,7 +83,7 @@
             <a class="nav-link" href="#aboutme">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">My Resume</a>
+            <a class="nav-link" onclick="window.open('resume.pdf')">My Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#webprojects">Web Projects</a>
@@ -93,17 +93,12 @@
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-facebook-f"></i>
+            <a href="https://www.instagram.com/toastmodernist/p" class="nav-link" target="_blank">
+              <i class="fab fa-instagram"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded" target="_blank">
+            <a href="https://github.com/NathanKloer" class="nav-link border border-light rounded" target="_blank">
               <i class="fab fa-github mr-2"></i>My GitHub
             </a>
           </li>
@@ -116,7 +111,7 @@
   <!-- Navbar -->
 
   <!--Carousel Wrapper-->
-  <div id="topmost">
+  <div id="top">
     <div>
       <div class="view landingpic" style="background-image: url('./img/photographs/thumbsuplong.png'); background-size: cover; background-attachment: fixed;
         background-position: top; background-size: 120%; max-height: 100%">
@@ -131,7 +126,7 @@
             </h1>
 
             <p>
-              <strong>Common Sense Employment Solutions</strong>
+              <strong>Web Development, Video Editing, Photography</strong>
             </p>
             <br />
             <br />
@@ -139,18 +134,18 @@
           </div>
         </div>
       </div>
-      
+
       <!--/First slide-->
       <!--/.Carousel Wrapper-->
 
       <!--Main layout-->
       <main>
-          
+
         <div class="container">
 
           <!--Section: Main info-->
           <section class="mt-5 wow fadeIn">
-              
+
             <!--Grid row-->
             <div class="row">
 
@@ -174,11 +169,8 @@
                 </p>
 
                 <!-- CTA -->
-                <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" class="btn btn-indigo btn-md">Resume
-                  <i class="fas fa-download ml-1"></i>
-                </a>
-                <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-indigo btn-md">Portfolio
-                  <i class="far fa-image ml-1"></i>
+                <a target="_blank" href="https://nathankloer.github.io/Portfolio/resume.pdf" class="btn btn-indigo btn-md">Resume
+                  <i class="fas fa-file-alt ml-1"></i>
                 </a>
 
               </div>
@@ -201,55 +193,51 @@
             <div id="webprojects" class="row wow fadeIn">
 
               <!--Grid column-->
-              <div class="col-lg-4 col-md-4">
+              <div class="col-lg-4 col-md-4 px-4">
+                <div class="row">
+                  <!--First row-->
+                  <div class="card">
+                    <div class="view overlay">
+                      <img class="card-img-top img-fluid" src="./img/photographs/woodscouch.png" style="width:100%; height: 13vw; object-fit:cover" alt="">
+                      <a href="https://nathankloer.github.io/TriviaGame/" title="Nathan's Movie Trivia">
+                        <div class="mask rgba-white-light"></div>
+                      </a>
+                    </div>
 
-                <!--First row-->
-                <div class="card">
-                  <div class="view overlay">
+                    <!-- Card content -->
+                    <div class="card-body">
 
-                    <img class="card-img-top" src="./img/photographs/woodscouch.png" alt="">
-                    <a href="https://nathankloer.github.io/TriviaGame/" title="Nathan's Movie Trivia">
-                      <div class="mask rgba-white-light"></div>
-                    </a>
+                      <!-- Title -->
+                      <h4 class="card-title text-center">
+                        <a>Movie Triva Quiz</a>
+                      </h4>
+                      <!-- Text -->
+                      <p class="card-text">
+                        Film is the most collaborative, mainstream artform in the world. Learning the process of what goes into it taught me that
+                        bigger, higher-quality projects require teamwork and determination. This Quiz utilizes timers and
+                        javascript to give the user a timed quiz about movies I love.
+                        <a href="https://github.com/NathanKloer/TriviaGame" target="_blank">
+                          <i class="fab fa-github mr-3"></i>
+                        </a>
+                      </p>
+                    </div>
                   </div>
-
-                  <!-- Card content -->
-                  <div class="card-body">
-
-                    <!-- Title -->
-                    <h4 class="card-title text-center">
-                      <a>Movie Triva Quiz</a>
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text justify-content-center">
-                      Film is the most collaborative, mainstream artform in the world. Learning the process of what goes into it taught me that
-                      bigger, higher-quality projects require teamwork and determination. This Quiz utilizes timers and javascript
-                      to give the user a timed quiz about movies I love.
-                    </p>
-                    <!-- Button -->
-
-                  </div>
-
                 </div>
-                <!--/First row-->
-
               </div>
               <div class="col-lg-4 col-md-4 px-4">
-
-                <!--First row-->
-                  <div class="card view overlay">
-                      <div class="view overlay">
-                        <img class="img-fluid z-depth-3" src="./img/photographs/p2picon.png" alt="">
-                        <a href="https://shielded-refuge-22847.herokuapp.com/" title="Parts-to-Purpose">
-                        <div class="mask flex-center rgba-white-light">
-                          <p class="black-text"></p>
-                        </div>
-                    </a>
+                <div class="row">
+                  <!--First row-->
+                  <div class="card">
+                    <div class="view overlay">
+                      <img class="card-img-top img-fluid" src="./img/photographs/p2picon.png" style="width:100%; height: 13vw; object-fit:cover" alt="">
+                      <a href="https://nathankloer.github.io/TriviaGame/" title="Nathan's Movie Trivia">
+                        <div class="mask rgba-white-light"></div>
+                      </a>
                     </div>
                     <div class="card-body">
 
                       <!-- Title -->
-                      <h4 class="card-title">
+                      <h4 class="card-title text-center">
                         <a>Parts-to-Purpose</a>
                       </h4>
                       <!-- Text -->
@@ -257,47 +245,45 @@
                         An App who's purpose doubles as an inventory database for charities and a classroom supply portal for educators, Parts-to-Purpose
                         seeks to be an open-source solution that helps charities connect with trusted and prospective educators
                         to help spread their dollar further.
+                        <a href="https://github.com/NathanKloer/SciFly" target="_blank">
+                          <i class="fab fa-github mr-3"></i>
+                        </a>
                       </p>
 
                     </div>
-
                   </div>
+                </div>
                 <!--/First row-->
 
               </div>
               <div class="col-lg-4 col-md-4 px-4">
-
-                <!--First row-->
                 <div class="row">
-                  <div class="view overlay">
-                    <div class="card view overlay">
+                  <!--First row-->
+                  <div class="card view overlay">
+                    <div class="view overlay">
 
-                      <img class="img-fluid z-depth-3" src="./img/photographs/clickgame.png" alt="">
-                      <div class="mask flex-center rgba-white-light">
-                        <p class="black-text"></p>
-                      </div>
+                      <img class="card-img-top" src="./img/photographs/clickgame.png" style="width:100%; height: 13vw; object-fit:cover" alt="">
+                      <a href="https://nathankloer.github.io/clickygame/" title="One of Everything!">
+                        <div class="mask rgba-white-light"></div>
+                      </a>
                     </div>
                     <div class="card-body">
-
                       <!-- Title -->
                       <h4 class="card-title">
-                        <a>Clicky Game!</a>
+                        <a>One-of-Everything</a>
                       </h4>
                       <!-- Text -->
                       <p class="card-text">
                         This is a game I deisnged using React.js. This new technology is super responsive and allows for all kinds of creative applications.
                         Click all of the food items only one time to order everything on the menu. Clicking on the same item
                         will reset the game and your score.
+                        <a href="https://github.com/NathanKloer/clickygame" target="_blank">
+                          <i class="fab fa-github mr-3"></i>
+                        </a>
                       </p>
-
                     </div>
-
                   </div>
-                </div>
-                <!--/First row-->
-
               </div>
-
             </div>
             <!--/Grid row-->
 
@@ -369,57 +355,30 @@
 
       <!--Call to action-->
       <div class="pt-4">
-        <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank" role="button">Download MDB
-          <i class="fas fa-download ml-2"></i>
+        <a class="btn btn-outline-white" href="#top" role="button">Back to Top
+          <i class="fas fa-arrow-circle-up ml-2"></i>
         </a>
-        <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start free tutorial
-          <i class="fas fa-graduation-cap ml-2"></i>
+        <a id="fileReqest" class="btn btn-outline-white" href="https://nathankloer.github.io/Portfolio/resume.pdf" target="_blank" role="button">See my Resume
+          <i class="fas fa-file-alt ml-2"></i>
         </a>
       </div>
       <!--/.Call to action-->
-
-      <hr class="my-4">
-
       <!-- Social icons -->
       <div class="pb-4">
-        <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-          <i class="fab fa-facebook-f mr-3"></i>
-        </a>
-
-        <a href="https://twitter.com/MDBootstrap" target="_blank">
-          <i class="fab fa-twitter mr-3"></i>
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-          <i class="fab fa-youtube mr-3"></i>
-        </a>
-
-        <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-          <i class="fab fa-google-plus-g mr-3"></i>
-        </a>
-
-        <a href="https://dribbble.com/mdbootstrap" target="_blank">
-          <i class="fab fa-dribbble mr-3"></i>
-        </a>
-
-        <a href="https://pinterest.com/mdbootstrap" target="_blank">
-          <i class="fab fa-pinterest mr-3"></i>
-        </a>
-
-        <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-          <i class="fab fa-github mr-3"></i>
-        </a>
-
-        <a href="http://codepen.io/mdbootstrap/" target="_blank">
-          <i class="fab fa-codepen mr-3"></i>
-        </a>
       </div>
       <!-- Social icons -->
 
       <!--Copyright-->
       <div class="footer-copyright py-3">
-        © 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+        <a href="https://github.com/NathanKloer" target="_blank">
+          <i class="fab fa-github mr-3"></i>
+        </a>
+
+        <a href="https://www.instagram.com/toastmodernist" target="_blank">
+          <i class="fab fa-instagram mr-3"></i>
+        </a>
+        © 2019 Copyright: Nathan Kloer
+
       </div>
       <!--/.Copyright-->
 
