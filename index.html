@@ -15,6 +15,7 @@
   <!-- Your custom styles (optional) -->
   <!-- <link href="css/style.min.css" rel="stylesheet"> -->
   <link href="./css/style.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
   <style type="text/css">
     html,
     body,
@@ -170,7 +171,7 @@
                 </p>
 
                 <!-- CTA -->
-                <a target="_blank" href="https://nathankloer.github.io/Portfolio/resume.pdf" class="btn btn-indigo btn-md">Resume
+                <a target="_blank" href="https://nathankloer.github.io/MyPortfolio/resume.pdf" class="btn btn-indigo btn-md">Resume
                   <i class="fas fa-file-alt ml-1"></i>
                 </a>
 
@@ -231,7 +232,7 @@
                   <div class="card">
                     <div class="view overlay">
                       <img class="card-img-top img-fluid" src="./img/photographs/p2picon.png" style="width:100%; height: 13vw; object-fit:cover" alt="">
-                      <a href="https://nathankloer.github.io/TriviaGame/" title="Nathan's Movie Trivia">
+                      <a href="https://shielded-refuge-22847.herokuapp.com/" title="Parts-to-Purpose">
                         <div class="mask rgba-white-light"></div>
                       </a>
                     </div>
@@ -335,12 +336,14 @@
                     </div>
 
                     <div class="text-center">
-                      <button type="submit" class="btn btn-indigo">Send</button>
+                      <a id="add-msg-btn" class="btn btn-indigo btn-lg active" role="button" aria-pressed="true">Send</a>
+                      <div id="success" class="alert alert-success" role="alert" style="display: none;">
+                        Thank You!
+                      </div>
                     </div>
 
                   </form>
                   <!-- Form -->
-                  <h3><?php include 'handler.php';?></h3>
                 </div>
 
               </div>
@@ -358,7 +361,7 @@
     </div>
     </main>
     <!--Main layout-->
-
+    
     <!--Footer-->
     <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
@@ -367,7 +370,7 @@
         <a class="btn btn-outline-white" href="#top" role="button">Back to Top
           <i class="fas fa-arrow-circle-up ml-2"></i>
         </a>
-        <a id="fileReqest" class="btn btn-outline-white" href="https://nathankloer.github.io/Portfolio/resume.pdf" target="_blank" role="button">See my Resume
+        <a id="fileReqest" class="btn btn-outline-white" href="https://nathankloer.github.io/MyPortfolio/resume.pdf" target="_blank" role="button">See my Resume
           <i class="fas fa-file-alt ml-2"></i>
         </a>
       </div>
