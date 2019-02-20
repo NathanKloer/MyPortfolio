@@ -9,14 +9,14 @@ body,
     height: 1000px; } }
 
 /* Half Page Carousel itself*/
-.hdrdetails {
-  position: absolute;
-  bottom: 0;
+.landingpic {
+  background: no-repeat scroll center top transparent;
+  height: 100px;
 }
 
 /* Adjustment for mobile devices*/
 @media (max-width: 776px) {
-  .carousel {
+  .landingpic {
     height: 100%; } }
 
 /* Navbar animation */

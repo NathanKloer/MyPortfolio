@@ -13,7 +13,8 @@
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
+  <!-- <link href="css/style.min.css" rel="stylesheet"> -->
+  <link href="./css/style.css" rel="stylesheet">
   <style type="text/css">
     html,
     body,
@@ -74,7 +75,7 @@
 
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#top">Home
               <span class="sr-only">(current)</span>
             </a>
@@ -113,8 +114,8 @@
   <!--Carousel Wrapper-->
   <div id="top">
     <div>
-      <div class="view landingpic" style="background-image: url('./img/photographs/thumbsuplong.png'); background-size: cover; background-attachment: fixed;
-        background-position: top; background-size: 120%; max-height: 100%">
+      <div class="view landingpic" style="background-image: url('./img/photographs/thumbsuplong.png'); background-size: cover;
+        background-position: center 0; background-repeat: no-repeat">
 
         <!-- Mask & flexbox options-->
         <div class="mask rgba-black-light d-flex justify-content-center align-items-end">
@@ -269,12 +270,12 @@
                     </div>
                     <div class="card-body">
                       <!-- Title -->
-                      <h4 class="card-title">
-                        <a>One-of-Everything</a>
+                      <h4 class="card-title text-center">
+                        <a>Everything on the Menu!</a>
                       </h4>
                       <!-- Text -->
                       <p class="card-text">
-                        This is a game I deisnged using React.js. This new technology is super responsive and allows for all kinds of creative applications.
+                        This is a game I designed using React.js. This new technology is super responsive and allows for all kinds of creative applications.
                         Click all of the food items only one time to order everything on the menu. Clicking on the same item
                         will reset the game and your score.
                         <a href="https://github.com/NathanKloer/clickygame" target="_blank">
@@ -294,6 +295,7 @@
 
           <!--Section: Not enough-->
           <section>
+            <div class="row">
             <div id="contactme" class="col-md-6 col-xl-5 mb-4">
 
               <!--Card-->
@@ -303,6 +305,7 @@
                 <div class="card-body">
 
                   <!-- Form -->
+                  
                   <form name="contactform">
                     <!-- Heading -->
                     <h3 class="dark-grey-text text-center">
@@ -312,37 +315,43 @@
 
                     <div class="md-form">
                       <i class="fas fa-user prefix grey-text"></i>
-                      <input type="text" id="form3" class="form-control">
-                      <label for="form3">Your name</label>
+                      <input type="text" id="name" class="form-control">
+                      <label for="name">Your name</label>
                     </div>
                     <div class="md-form">
                       <i class="fas fa-envelope prefix grey-text"></i>
-                      <input type="text" id="form2" class="form-control">
-                      <label for="form2">Your email</label>
+                      <input type="email" id="email" class="form-control" name="email">
+                      <label for="email">Your email</label>
                     </div>
-
+                    <div class="md-form">
+                        <i class="fas fa-envelope prefix grey-text"></i>
+                        <input type="text" id="sub" class="form-control">
+                        <label for="subject">Subject</label>
+                      </div>
                     <div class="md-form">
                       <i class="fas fa-pencil-alt prefix grey-text"></i>
-                      <textarea type="text" id="form8" class="md-textarea"></textarea>
-                      <label for="form8">Your message</label>
+                      <textarea type="text" id="message" class="md-textarea"></textarea>
+                      <label for="message">Your message</label>
                     </div>
 
                     <div class="text-center">
-                      <button class="btn btn-indigo">Send</button>
+                      <button type="submit" class="btn btn-indigo">Send</button>
                     </div>
 
                   </form>
                   <!-- Form -->
-
+                  <h3><?php include 'handler.php';?></h3>
                 </div>
 
               </div>
               <!--/.Card-->
-
+              
             </div>
+            <div class="col-md-6 col-xl-7 mb-4">
+                <img src="./img/photographs/selfie.JPG" class="img-fluid z-depth-1-half" style="margin-top:10%" alt="">
+              </div>
             <!--Grid column-->
-
-        </div>
+            </div>
         </section>
         <!--Section: More-->
 
